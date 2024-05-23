@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Good Morning!");
+        document.write("Welcome to Javascript.....");
+        function greet()
+         {  document.write("Have a Good Day!");
+         }
+        function greetuser()
+        { var usn = document.getElementById("username").value;
+          document.write("Welcome "+usn+" !");  
+        } 
+    </script>
+    <br>
+    <button onclick=greet();>Greetings</button>
+    <br>
+    <label> User Name </label>
+    <input type="text" id = "username">
+    <button onclick=greetuser();>Welcome</button>   
+</body>
+</html>
